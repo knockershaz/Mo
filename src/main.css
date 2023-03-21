@@ -1,0 +1,63 @@
+.op:hover{
+    background-color: white !important;
+    border-radius: 25px !important;
+}
+.op{
+    font-family:'Lucida Sans';
+}
+#name{
+font-family: 'Shantell Sans', cursive;
+font-weight: 600;
+}
+#hom{
+    margin-left: 245px;
+}
+
+.image{
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.image:hover{
+    transform: scale(1.7);
+}
+    .car{
+        height: 600px;
+    }
+    #home{
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 6px;
+        height: 555px;
+        flex-direction: column;
+    }
+    #home::before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background: url(Image/a1.jpg)no-repeat center center/cover;
+        height: 600px;
+        z-index: -1;
+        opacity: 0.9;
+        width: 100%;
+    }
+    #home h1{
+        color: black;
+        font-family: 'Shantell Sans', cursive;
+        font-weight: 600;
+        text-align: center;
+    }
+    #home p{
+        color: black;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size : 1rem;
+    }
+    .wt-bg{
+        background-color: white;
+        border-radius: 15px;
+        color: black;
+        padding: 20px;
+    }
